@@ -55,7 +55,7 @@ function BMI() {
 function grow() {
     var r = parseInt(document.getElementById("row").value);
     var c = parseInt(document.getElementById("column").value);
-    var list = ["apple.jpeg", "green.jpeg", "ora.jpeg"];
+    var list = ["Apple.jpg", "Green_Apple.jpg", "Orange.jpg"];
     document.getElementById("garden").innerHTML = null;
     for (let i = 0; i < r; i++) {
         for (let j = 0; j < c; j++) {
